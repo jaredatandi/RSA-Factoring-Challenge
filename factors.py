@@ -9,5 +9,6 @@ def factors():
             p = random.randint(0, 100)
             q = int(num_in)
             n = p * q
+            num_in = prime_nums.readline()
             print("{}".format(n))
 factors()
